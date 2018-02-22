@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    
+    <div class="calculadora">
+        <input type="text" id="valor" readonly>
+        <div class="teclado">
+            <button class="teclado-numero1" onclick="tecladoClick(1)">1</button>
+            <button class="teclado-numero2" onclick="tecladoClick(2)">2</button>
+            <button class="teclado-numero3" onclick="tecladoClick(3)">3</button>
+            <button class="teclado-numero4" onclick="tecladoClick(4)">4</button>
+            <button class="teclado-numero5" onclick="tecladoClick(5)">5</button>
+            <button class="teclado-numero6" onclick="tecladoClick(6)">6</button>
+            <button class="teclado-numero7" onclick="tecladoClick(7)">7</button>
+            <button class="teclado-numero8" onclick="tecladoClick(8)">8</button>
+            <button class="teclado-numero9" onclick="tecladoClick(9)">9</button>
+            <button class="teclado-numero0" onclick="tecladoClick(0)">0</button>
+            <button class="teclado-operacaomais" onclick="tecladoClick('+')">+</button>
+            <button class="teclado-operacao-" onclick="tecladoClick('-')">-</button>
+            <button class="teclado-operacaodiv" onclick="tecladoClick('/')">/</button>
+            <button class="teclado-operacaox" onclick="tecladoClick('*')">x</button>
+            <button class="teclado-operacaoigual" onclick="tecladoClick, igual('=')">=</button>
+        </div>
+    </div>
+
+    <script src="acao.js"></script>
+</body>
+</html>

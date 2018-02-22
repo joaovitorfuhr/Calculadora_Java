@@ -1,0 +1,113 @@
+input{
+    width: 100px;
+    height: 15px;
+
+}
+
+output{
+    margin: 1px;
+}
+
+.teclado-numero1{
+    margin-top: 5px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.teclado-numero2{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.teclado-numero3{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.teclado-numero4{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.teclado-numero5{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.teclado-numero6{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.teclado-numero7{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.teclado-numero8{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.teclado-numero9{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.teclado-numero0{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.teclado-operacaomais{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.teclado-operacao-{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.teclado-operacaox{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 12px;
+}
+
+.teclado-operacaodiv{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.teclado-operacaoigual{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+.calculadora {
+    display: inline-block;
+    position: relative;
+    width:  150px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.calculadora input {
+    position: relative;
+    width: 89%;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+}
